@@ -6,6 +6,8 @@ custom plugin for mybatis generator
 那么请用这个plugin吧，一切都解决了,have a try and enjoy it.
 
 All you need to do，just like below:
+
+
 <plugin>
       <groupId>org.mybatis.generator</groupId>
       <artifactId>mybatis-generator-maven-plugin</artifactId>
