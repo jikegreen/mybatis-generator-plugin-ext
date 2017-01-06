@@ -5,9 +5,7 @@ custom plugin for mybatis generator
 还在为数据库表字段变动而苦恼么?
 那么请用这个plugin吧，一切都解决了,have a try and enjoy it.
 
-All you need to do，just like below:
-
-
+在generatorConfig.xml中加入<plugin type="com.nfsq.mybatis.generator.plugin.ext.MybatisGeneratorExtPlugin"></plugin>注册这个plugin。然后在pom.xml中加入下面的配置
 <plugin>
       <groupId>org.mybatis.generator</groupId>
       <artifactId>mybatis-generator-maven-plugin</artifactId>
